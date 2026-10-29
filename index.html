@@ -5,13 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Zyro Store | Future Essentials</title>
   
-  <!-- Fonts & Icons -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   
-  <!-- Tailwind CSS via CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -40,16 +38,13 @@
     }
   </script>
 
-  <!-- External Stylesheet -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body class="bg-zyro-950 text-slate-100 font-sans min-h-screen selection:bg-zyro-accent selection:text-white flex flex-col">
 
-  <!-- Header -->
   <header class="sticky top-0 z-40 glass-panel border-b border-slate-800/80">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-4">
       
-      <!-- Brand Logo (Triple-click secret trigger for owner) -->
       <div onclick="handleLogoSecretClick()" class="flex items-center gap-3 group cursor-pointer select-none" title="Zyro Store">
         <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-indigo-500 via-purple-600 to-pink-500 flex items-center justify-center font-display font-extrabold text-white text-xl shadow-lg shadow-indigo-500/30 group-hover:scale-105 transition-transform duration-200">
           Z
@@ -60,7 +55,6 @@
         </div>
       </div>
 
-      <!-- Search Desktop -->
       <div class="hidden md:flex flex-1 max-w-md mx-6">
         <div class="relative w-full">
           <input 
