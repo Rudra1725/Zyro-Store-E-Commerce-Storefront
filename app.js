@@ -1,5 +1,5 @@
-const OWNER_PHONE = "919096925270"; // Target WhatsApp
-const ADMIN_SECRET_PIN = "7020";   // Change your PIN here
+const OWNER_PHONE = "XXXXXXXXXXX"; // 
+const ADMIN_SECRET_PIN = "7020";   
 
 const initialProducts = [
   {
